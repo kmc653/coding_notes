@@ -1,0 +1,47 @@
+# Define a top level method
+- 當你開一個ruby檔 定義一個method
+
+def talk
+  puts "Hello"
+end
+
+is equal to
+
+class Object
+  private
+    def talk
+      puts "Hello"
+    end
+end
+
+So you cannot do this:
+
+obj = Object.new
+obj.talk
+
+# Control flow technique
+- if
+  if x > 10 then puts x end
+  if x > 10; puts x; end
+
+# Local variable assignment in a conditional body
+
+if false
+  x = 1
+end
+
+p x   => nil
+p y   => y is unknown
+
+Ruby parser will sees the sequence identifier, equal-sign, value. x = 1.
+It allocates space for a local variable called x.
+
+- case statements
+
+  case answer
+  when "y", "yes"
+    puts "GoodBye"
+    exit
+  else
+    puts "GG"
+  end

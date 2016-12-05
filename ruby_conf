@@ -1,0 +1,51 @@
+# Breaking bad with GitLab CI
+- catGrep sophisticated technologies inc.
+- learn what docker image to use. ex: alpine
+- ISO instead of gzip
+- publish a website
+- awscli can be installed by pip
+- need a seperate place for testing
+
+# How to upgrade Rails and Ruby
+
+#
+- A DB does not know what all secenarios
+- User.where(id: 1).explain
+- Let's index everything
+- Index are a special lookup table
+- An index is like a pointer to a particular row of a table. Where all the fields in the table are ordered.
+- Do not index tables with a lot of read, write
+- create view
+- A schema of view lives in memory of a DB
+- need to write sql
+- row_to_json() method in SQL
+- Surus gem
+
+# isophormatic programming in Ruby
+- Opal
+
+# to code is human
+- manage your energy, not time
+- human beings area rhythmic creatures establish a daily routine
+- eat healthy
+- regular exercise
+- pair programming
+- reward cycle
+- werve.net
+
+# Ruby, facing the change of world-wide server-class microprocessor (skymizer)
+- workloads become diverse
+
+# 1000000 lines of code
+- always start with the simplest code taht works. Don't over-engineer
+- Simple tool. simple git
+- Class design guildlines: Keep logic and query out of view. Keep latest and greatest gem.
+
+# Crawler 財報狗
+- Keep states of cron executions schedule in database
+
+# Large scale in Rails
+- If it's not a controller job, leave it to the module
+- recurly gem
+- write adapters
+- drop assets pipeline
