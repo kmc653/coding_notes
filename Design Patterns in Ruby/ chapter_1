@@ -1,0 +1,9 @@
+# The Gang of Four
+- Seperate out the things that change from those that stay the same
+  將可能改變的東西與保持不變的東西分開
+  A key goal of software engineering is to build systems that allow us to contain the damage
+- Progeram to an interface, not an implementation (loosely coupling code)
+  classify common traits and behaviors
+
+The proper use of design pattern is the art of making your system just flexible enough to
+deal with the problems you have today, but no more. 
